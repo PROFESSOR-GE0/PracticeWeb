@@ -1,0 +1,66 @@
+body{
+    background-color: antiquewhite;
+}
+.home a{
+    font-size: 27px;
+    font-family: monospace;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: rgb(238, 238, 207);
+    padding: 5px;
+}
+.home{
+    background-image: url(images/todo\ color\ revise.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 650px;
+    border-bottom: solid;
+}
+
+
+
+.about{
+    height: 650px;
+    font-family: monospace;
+    font-size: 25;
+    border-bottom: solid;
+    background-color: antiquewhite;
+}
+.about p{
+    width: 1000px;
+}
+.about a{
+    font-size: 27px;
+    font-family: monospace;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: rgb(238, 238, 207);
+    padding: 5px;
+}
+
+
+.work{
+    height: 650px;
+    font-family: monospace;
+    font-size: 30;
+    border-bottom: solid;
+    background-color: antiquewhite;
+}
+button{
+    font-family: monospace;
+    font-size: 25;
+    background-color: rgb(238, 238, 207);
+    width: 150px;
+    height: 80px;
+    
+}
+
+
+h2{
+    font-size: 50px;
+    font-family: monospace;
+}
