@@ -1,38 +1,53 @@
+/*Index*/
 body{
     background-color: antiquewhite;
+    text-align: center;
 }
+
 .home a{
-    font-size: 27px;
+    font-size: 205%;
     font-family: monospace;
     color: rgb(0, 0, 0);
     text-decoration: none;
     border-style: solid;
     border-radius: 5px;
     background-color: rgb(238, 238, 207);
-    padding: 5px;
+    padding: 0.3%;
 }
 .home{
     background-image: url(images/todo\ color\ revise.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    height: 650px;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 5%;
+    margin: 5px;
     border-bottom: solid;
 }
 
 
 
 .about{
-    height: 650px;
-    font-family: monospace;
-    font-size: 25;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 5%;
+    margin: 5px;
     border-bottom: solid;
     background-color: antiquewhite;
 }
-.about p{
-    width: 1000px;
+.about h2{
+    font-family: monospace;
+    font-size: 60;
 }
+.about p{
+    font-size: 220%;
+    width: 80%;
+    font-family: monospace;
+}
+
 .about a{
-    font-size: 27px;
+    font-size: 230%;
     font-family: monospace;
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -40,27 +55,88 @@ body{
     border-radius: 5px;
     background-color: rgb(238, 238, 207);
     padding: 5px;
+    margin: 2px;
 }
 
 
 .work{
-    height: 650px;
-    font-family: monospace;
-    font-size: 30;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 5%;
+    margin: 5px;
     border-bottom: solid;
     background-color: antiquewhite;
 }
-button{
+.work h2{
     font-family: monospace;
-    font-size: 25;
+    font-size: 60;
+}
+.work label{
+    font-family: monospace;
+    font-size: 250%;
+}
+.work button{
+    font-family: monospace;
+    font-size: 250%;
+    width: 15%;
+    height: 70px;
+    margin: 5px;
     background-color: rgb(238, 238, 207);
-    width: 150px;
-    height: 80px;
-    
 }
 
 
-h2{
-    font-size: 50px;
+
+/*Login Page & List Page*/  
+h1{
     font-family: monospace;
+    font-size: 500%;
 }
+label{
+    font-family: monospace;
+    font-size: 220%;
+}
+input{
+    font-family: monospace;
+    font-size: 150%;
+    width: 35%; 
+    margin: 2px;  
+    background-color: rgb(203, 212, 189);
+}
+.loginform button{
+    font-family: monospace;
+    font-size: 150%;
+    width: 15%;
+    height: 50px;
+    margin: 2px;
+    background-color: rgb(238, 238, 207);
+}
+.loginform{
+    text-align: center;
+    border-style: solid;
+    width: 60%;
+    border-radius: 50px;
+    padding: 2%;
+    margin: 5% auto;
+ 
+}
+
+
+.listform{
+    text-align: center;
+    border-style: solid;
+    width: 60%;
+    border-radius: 50px;
+    padding: 2%;
+    margin: 5% auto;
+ 
+}
+.listform button{
+    font-family: monospace;
+    font-size: 150%;
+    width: 15%;
+    height: 50px;
+    margin: 2px;
+    margin-bottom: 20px;
+    background-color: rgb(238, 238, 207);
+}
+
