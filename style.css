@@ -169,7 +169,7 @@ body{
         border-radius: 50px;
         width: 80%;
         padding: 5px 5px 20px 5px; 
-        margin: 15px 3  0px 20px 30px;
+        margin: 15px 30px 20px 30px;
      
     }
 
@@ -193,6 +193,7 @@ body{
     }
     .about h2{
         font-size: 400%;
+        padding-top: 40px;
     }
     .about p{
         font-size: 140%;
@@ -212,6 +213,7 @@ body{
     }
     .work h2{
         font-size: 400%;
+        padding-top: 40px;
     }
     .work label{
         font-size: 150%;
