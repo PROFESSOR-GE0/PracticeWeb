@@ -1,6 +1,43 @@
+/*Login Page*/  
+h1{
+    font-family: monospace;
+    font-size: 500%;
+}
+label{
+    font-family: monospace;
+    font-size: 220%;
+}
+input{
+    font-family: monospace;
+    font-size: 150%;
+    width: 35%; 
+    margin: 2px;  
+    background-color: rgb(203, 212, 189);
+}
+.loginform button{
+    font-family: monospace;
+    font-size: 150%;
+    width: 15%;
+    height: 50px;
+    margin: 2px;
+    background-color: rgb(238, 238, 207);
+}
+.loginform{
+    background-color: #fdf1e3; 
+    text-align: center;
+    border-style: solid;
+    width: 60%;
+    border-radius: 50px;
+    padding: 5px 20px 20px 20px;
+    margin: 50px 240px 50px 240px;
+ 
+}
+
+
 /*Index*/
 body{
     background-color: antiquewhite;
+    align-items: center;
     text-align: center;
 }
 
@@ -43,6 +80,7 @@ body{
 .about p{
     font-size: 220%;
     width: 80%;
+    padding: 10px 130px 80px;
     font-family: monospace;
 }
 
@@ -69,7 +107,7 @@ body{
 }
 .work h2{
     font-family: monospace;
-    font-size: 60;
+    font-size: 60px;
 }
 .work label{
     font-family: monospace;
@@ -80,48 +118,14 @@ body{
     font-size: 250%;
     width: 15%;
     height: 70px;
-    margin: 5px;
+    margin-top: 30px;
     background-color: rgb(238, 238, 207);
 }
 
 
-
-/*Login Page & List Page*/  
-h1{
-    font-family: monospace;
-    font-size: 500%;
-}
-label{
-    font-family: monospace;
-    font-size: 220%;
-}
-input{
-    font-family: monospace;
-    font-size: 150%;
-    width: 35%; 
-    margin: 2px;  
-    background-color: rgb(203, 212, 189);
-}
-.loginform button{
-    font-family: monospace;
-    font-size: 150%;
-    width: 15%;
-    height: 50px;
-    margin: 2px;
-    background-color: rgb(238, 238, 207);
-}
-.loginform{
-    text-align: center;
-    border-style: solid;
-    width: 60%;
-    border-radius: 50px;
-    padding: 2%;
-    margin: 5% auto;
- 
-}
-
-
+/*List Page*/  
 .listform{
+    background-color: #fdf1e3; 
     text-align: center;
     border-style: solid;
     width: 60%;
@@ -140,3 +144,109 @@ input{
     background-color: rgb(238, 238, 207);
 }
 
+/*For other devices*/  
+@media only screen and (max-width: 800px){
+/*Login Page*/  
+    .loginform h1{
+        font-size: 450%;
+    }
+    .loginform label{
+        font-size: 150%;
+    }
+    .loginform input{
+        font-size: 100%;
+        width: 50%; 
+        margin: 1px;  
+    }
+    .loginform button{
+        font-size: 100%;
+        width: 30%;
+        height: 30px;
+        margin: 1px;
+    }
+    .loginform{
+        border-style: solid;
+        border-radius: 50px;
+        width: 80%;
+        padding: 5px 5px 20px 5px; 
+        margin: 15px 3  0px 20px 30px;
+     
+    }
+
+
+
+/*Index Page*/  
+    .home a{
+        font-size: 150%;
+        padding: 0.3%;
+    }
+    .home{
+        background-size:auto;
+        margin: 5px;
+        border-bottom: solid;
+    }
+
+
+    .about{
+        padding-bottom: 5%;
+        margin: 5px;
+    }
+    .about h2{
+        font-size: 400%;
+    }
+    .about p{
+        font-size: 140%;
+        width: 80%;
+        padding: 20px 30px;
+    }
+    
+    .about a{
+        font-size: 200%;
+        padding: 5px;
+    }
+    
+
+    .work{
+        padding-bottom: 5%;
+        margin: 5px;
+    }
+    .work h2{
+        font-size: 400%;
+    }
+    .work label{
+        font-size: 150%;
+    }
+    .work button{
+        font-size: 200%;
+        width: 50%;
+        height: 10%;
+        margin: 50px;
+    }
+
+/*List Page*/  
+    .listform h1{
+        font-size: 300%;
+    }
+    .listform label{
+        font-size: 150%;
+    }
+    .listform input{
+        font-size: 100%;
+        width: 50%; 
+        margin: 1px;  
+    }
+    .listform button{
+        font-size: 100%;
+        width: 30%;
+        height: 30px;
+        margin: 1px;
+    }
+    .listform{
+        border-style: solid;
+        border-radius: 50px;
+        width: 80%;
+        padding: 5px 5px 20px 5px; 
+        margin: 50px 30px 20px 30px;
+    
+    }
+}
