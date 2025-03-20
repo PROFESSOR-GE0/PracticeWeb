@@ -3,15 +3,35 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
     <title>List Page</title>
 </head>
 <body>
-        <div class="listform">
+    <div class="listform">
         <h1>What to do?</h1>
-        <label for="todo">Add a Task:</label>
-        <input type="text"id="todo" placeholder="Add works...">
+        
+        <label for="inputwork">Add a Task:</label>
+        <input type="text" id="inputwork" placeholder="Add works...">
         <br><br>
-        <button class="add">Add Works</button>
-        <a href="index.html"><button class="back">Back</button></a></div>
+        
+        <button class="add" onclick="addwork()">Add Works</button>
+        <a href="index.html"><button class="back">Back</button></a>
+        <br><br>
+        
+        <table id="worktable">
+            <thead>
+                <tr>
+                    <th>Works</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+
+        
 </body>
 </html>
